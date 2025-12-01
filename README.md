@@ -1,6 +1,8 @@
 # Inventory Demand Forecasting Dashboard
 
-AI-powered inventory demand forecasting system using LightGBM with a hurdle model architecture.
+AI-powered inventory demand forecasting system for 141 SKUs using LightGBM with a hurdle model architecture (two-stage: binary classifier for demand occurrence + quantile regressors for quantity prediction).
+
+- **SKU**: A SKU, or stock keeping unit, is a unique, internal code assigned to a product for inventory management purposes.
 
 ## Overview
 
@@ -97,7 +99,7 @@ The dashboard will open in your web browser at `http://localhost:8501`.
 
 1. **Generate Forecast**:
    - Click "Generate Forecast" button
-   - Wait for processing (first run may take ~10-20 seconds to load data and forecast for all ~200 SKUs)
+   - Wait for processing (first run may take ~10-20 seconds to load data and forecast for all ~140 SKUs)
 
 2. **Explore Results** (4 Tabs):
    - **Tab 1 - Forecast Results**: Summary metrics, detailed table, CSV/PDF export
