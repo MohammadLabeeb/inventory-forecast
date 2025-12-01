@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data, datasets and large binary artifacts (adjust to taste)
+Data/
+datasets/
+raw_data/
+processed_data/
+outputs/
+predictions/
+checkpoints/
+logs/
+
+# Common data file formats produced by ML workflows
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.sav
+*.bin
+.claude
+.github
+pyproject.toml
+.python-version
+
+# ML experiment tracking / tooling
+mlruns/
+wandb/
+runs/
+tb_logs/
+tensorboard/
+.neptune/
+.dvc/
+.cache/
+
+# Environment files & secrets
+.env
+.env.* 
+secrets.yml
+credentials.json
+*.pem
+*.key
+*.crt
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Databases / local state
+*.sqlite
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Static analysis / caches
+.mypy_cache/
+.pyre/
+.pylint.d/
+.ropeproject/
+
+# Optional: ignore Docker Compose override for local development
+docker-compose.override.yml

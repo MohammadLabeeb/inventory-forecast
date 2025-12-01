@@ -1,0 +1,28 @@
+# Inventory Demand Forecasting - Requirements
+# Python 3.12+
+
+# Core data science libraries
+numpy==2.3.5
+pandas==2.3.3
+
+# Machine learning
+lightgbm==4.6.0
+scikit-learn>=1.0.0
+
+# Excel file handling
+openpyxl>=3.1.0
+
+# Streamlit dashboard
+streamlit>=1.30.0
+
+# Plotting and visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.0.0
+
+# PDF generation
+reportlab>=4.0.0
+
+# Utility libraries
+joblib>=1.3.0
+pathlib2>=2.3.7

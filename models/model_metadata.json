@@ -1,0 +1,62 @@
+{
+  "training_date": "2025-11-29T16:55:25.313778",
+  "model_architecture": "Hurdle Model with Tier-Specific Training",
+  "feature_columns": [
+    "SKU",
+    "month",
+    "quarter",
+    "day_of_week",
+    "manufacturing_time",
+    "lead_time_weeks",
+    "historical_avg_sales",
+    "historical_std_sales",
+    "demand_cv",
+    "lag_30",
+    "lag_60",
+    "lag_90",
+    "same_month_last_year",
+    "rolling_mean_30",
+    "rolling_mean_60",
+    "rolling_std_30",
+    "is_high_season",
+    "is_weekend",
+    "price_per_unit",
+    "days_since_last_sale",
+    "ema_7",
+    "ema_14",
+    "ema_30",
+    "ema_trend_short",
+    "ema_trend_long",
+    "recent_volatility"
+  ],
+  "categorical_features": [
+    "SKU",
+    "month",
+    "quarter",
+    "day_of_week"
+  ],
+  "tier_groups": {
+    "high_volume": [
+      1,
+      2
+    ],
+    "low_volume": [
+      3,
+      4
+    ]
+  },
+  "metrics": {
+    "MAE": 1.2600518039327069,
+    "RMSE": 3.2085316893295186,
+    "WAPE": 27.303357618889056,
+    "R2": 0.8596510953947637,
+    "Calibration_Q90": 86.02642276422763,
+    "Stockout_Risk": 13.973577235772359
+  },
+  "split_date": "2025-06-08 00:00:00",
+  "high_season_months": [
+    3,
+    4,
+    5
+  ]
+}
