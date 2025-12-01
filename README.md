@@ -129,14 +129,14 @@ The dashboard will open in your web browser at `http://localhost:8501`.
 
 The model uses 26 features across multiple categories:
 
-**Temporal**: Month, quarter, day of week, seasonality
-**Historical**: Expanding mean, std, coefficient of variation
-**Lag Features**: 30, 60, 90 days + year-over-year
-**Rolling Statistics**: 30, 60 day means and stds
-**EMA Features**: 7, 14, 30 day exponential moving averages
-**Trends**: Short-term and long-term momentum
-**Recency**: Days since last sale
-**Product**: Manufacturing time, lead time, product type
+- **Temporal**: Month, quarter, day of week, seasonality
+- **Historical**: Expanding mean, std, coefficient of variation
+- **Lag Features**: 30, 60, 90 days + year-over-year
+- **Rolling Statistics**: 30, 60 day means and stds
+- **EMA Features**: 7, 14, 30 day exponential moving averages
+- **Trends**: Short-term and long-term momentum
+- **Recency**: Days since last sale
+- **Product**: Manufacturing time, lead time, product type
 
 ## Model Performance
 
